@@ -1,0 +1,644 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./image/logo.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="output.css">
+  <link rel="stylesheet" href="style.css">
+  <title>POWERFULL</title>
+</head>
+
+<body>
+
+  <!-- HOME START -->
+
+  <!-- navbar start -->
+  
+
+  <section id="home" class="relative  flex bg-hero-pattern bg-cover bg-center h-bgHeight font-bold ">
+  <!-- mobile navbar start -->
+    <nav  class="absolute w-[100%] sm:hidden ">
+      <div id="hamburger" class="flex w-[100%] justify-between z-50 ">
+        <div class="mt-0 ml-5 w-[40%]">
+          <img src="./image/logo.png" alt="">
+        </div>
+        
+        <div class="flex flex-col mt-4 mr-1 ">
+          <!-- X Button -->
+          <div id="xButton" class="flex ">
+            <button class="group ml-6">
+              <div class="mr-16">
+                <div id="down" class="hidden transition-all duration-150  absolute flex flex-col items-center  justify-center rounded-full w-[40px] h-[40px]  bg-hoverColor ring-4  hover:ring-8  ring-opacity-80  shadow-md ">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="mt-1 h-6 w-6h-6 w-6 animate-bounce text-btnColor" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </div>
+                
+                <div id="three" class="mr-16 flex flex-col items-center transform transition-all duration-300 absolute  justify-center rounded-full w-[40px] h-[40px]  bg-hoverColor ring-4  hover:ring-8  ring-opacity-80  shadow-md ">
+                    <div class=" bg-btnColor h-[2px] w-7 transform transition-all duration-300  "></div>
+                    <div class=" bg-btnColor mt-1.5 h-[2px] w-7 rounded transform transition-all duration-300  delay-75"></div>
+                    <div class=" bg-btnColor mt-1.5 h-[2px] w-7 transform transition-all duration-300   delay-100"></div>
+                </div>
+                
+              </div>
+              
+            </button>
+          </div>
+          <!-- X Button-->
+          
+      
+          <div id="hamMenu" class="bg-bgNavbar hidden rounded-lg mt-10 ">
+            <div class="flex flex-col  items-center text-center relative text-white p-2">
+              <a href="#home" class=" hover:bg-hoverColor focus:bg-hoverColor rounded-lg p-1 transition-all duration-1000 hover:ring-8  ring-opacity-80 ">Home</a>
+              <a href="#classes" class="hover:bg-hoverColor focus:bg-hoverColor rounded-lg p-1 transition-all duration-1000 hover:ring-8  ring-opacity-80">Classes</a>
+              <a href="#trainers" class="hover:bg-hoverColor focus:bg-hoverColor rounded-lg p-1 transition-all duration-1000 hover:ring-8  ring-opacity-80">Trainers</a>
+              <a href="#review" class="hover:bg-hoverColor focus:bg-hoverColor rounded-lg p-1 transition-all duration-1000 hover:ring-8  ring-opacity-80">Review</a>
+              <a href="#contact" class="hover:bg-hoverColor focus:bg-hoverColor rounded-lg p-1 transition-all duration-1000 hover:ring-8  ring-opacity-80">Contact</a>
+              <a href="#" class="  hover:bg-hoverColor focus:bg-hoverColor rounded-lg p-1 transition-all duration-1000 hover:ring-8  ring-opacity-80 ">JOIN US</a>
+            </div>
+            
+          </div>
+          
+        </div>
+      </div>
+      
+    </nav>
+    
+  <!-- mobile navbar end-->
+
+
+    <header class="fixed z-20 min-w-full hidden sm:block" id="navbar">
+      <nav class="max-w-6xl mx-auto h-16 flex items-center justify-between p-6 w-4/5">
+
+        <div class="flex items-center  max-w-[225px]">
+          <img src="./image/logo.png"  alt="logo">
+
+        </div>
+        <div class="flex flex-wrap gap-1 items-center text-xl ">
+          <div>
+            <a href="#home"
+            class="text-white mx-2 hover:bg-hoverColor focus:bg-hoverColor rounded-lg p-1 transition ease-linear delay-150">Home</a>
+            <a href="#classes"
+            class="text-white mx-2 hover:bg-hoverColor focus:bg-hoverColor rounded-lg p-1 transition ease-linear delay-150">Classes</a>
+            <a href="#trainers"
+            class="text-white mx-2 hover:bg-hoverColor focus:bg-hoverColor rounded-lg p-1 transition ease-linear delay-150">Trainer</a>
+          </div>
+          <div>
+            <a href="#review"
+            class="text-white mx-2 hover:bg-hoverColor focus:bg-hoverColor rounded-lg p-1 transition ease-linear delay-150">Review</a>
+            <a href="#contact"
+            class="text-white mx-2 hover:bg-hoverColor focus:bg-hoverColor rounded-lg p-1 transition ease-linear delay-150">Contact</a>
+            <a href="#"
+            class="text-white text-nowrap mx-2 hover:bg-hoverColor focus:bg-hoverColor rounded-lg p-1 transition ease-linear delay-150 bg-hoverColor ">JOIN
+            US</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- navbar finish -->
+
+    
+    <div class=" flex items-center justify-center mx-auto mb-16 max-w-6xl">
+      <div class="flex gap-2 text-white flex-col mx-auto mt-8 px-4 sm:px-6">
+        <div class="mt-16">
+          <p class="bg-btnColor w-32 py-2 px-4 rounded-lg text-sm sm:text-base">POWERFULL</p>
+        </div>
+  
+        <h2 class="text-4xl sm:text-6xl max-w-[22rem] sm:leading-normal">Group Practice With Trainer</h2>
+  
+  
+        <div class="sm:flex sm:w-[72%] my-6 bg-black/80 rounded-md
+          p-2">
+          <p class="tex-sm sm:text-xl tracking-wider">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio adipisci, at officiis
+            quisquam ad sed illum consequuntur libero aperiam vel, repellat cupiditate fugit asperiores facere deleniti
+            quos. Quo aliquid adipisci harum quidem. Saepe, repellat sunt!
+          </p>
+        </div>
+        <div class="flex flex-col gap-4 sm:gap-8 sm:flex-row">
+  
+          <button
+            class="px-6 py-3  bg-btnColor flex rounded-md  hover:bg-hoverColor transition ease-linear delay-150">Sign
+            Up</button>
+  
+  
+          <button
+            class="px-6 py-3 border flex rounded-md  hover:bg-hoverColor transition ease-linear delay-150">Details</button>
+  
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+
+  <div class=" bg-heroBottom  min-h-48 font-bold py-12">
+    <div class=" max-w-6xl mx-auto flex flex-col flex-wrap sm:flex-row gap-6 justify-between items-center">
+      <div class="flex flex-col gap-4 items-center w-48 h-48 p-4 justify-center bg-white">
+        <p class="text-btnColor font-extrabold text-3xl">305</p>
+
+        <p class="font-extrabold text-2xl">Course</p>
+      </div>
+      <div class="flex flex-col gap-4 items-center w-48 h-48 p-4 justify-center bg-white">
+        <p class="text-btnColor font-extrabold text-3xl">405</p>
+        <p class="font-extrabold text-2xl">Work Out</p>
+      </div>
+      <div class="flex flex-col gap-4 items-center w-48 h-48 p-4 justify-center bg-white">
+        <p class="text-btnColor font-extrabold text-3xl">325</p>
+        <p class="font-extrabold text-2xl  text-center">Working Hour</p>
+      </div>
+      <div class="flex flex-col gap-4 items-center w-48 h-48 p-4 justify-center bg-white">
+        <p class="text-btnColor font-extrabold text-3xl">705</p>
+        <p class="font-extrabold text-2xl text-center">Happy Client</p>
+      </div>
+    </div>
+
+  </div>
+  <!-- HOME FINISHED -->
+
+
+  <!-- OUR CLASSES START -->
+  <section id="classes" class="mt-10  max-w-6xl mx-auto">
+    <div class="text-3xl font-bold text-btnColor text-center flex items-center justify-center relative">
+      <h3>OUR CLASSES </h3>
+
+    </div>
+
+    <div class="flex mt-10 justify-center  max-w-4xl mx-auto text-center font-semibold">
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus esse provident eius? Voluptatem delectus
+        necessitatibus qui laudantium possimus voluptatum inrum, repellat eos?
+      </p>
+    </div>
+
+    <div class="relative flex-wrap">
+      <div class="clip-padding absolute h-full w-full ">
+
+      </div>
+
+      <!-- buttons -->
+      <div id="btns-div"
+        class="flex gap-6 -z-0 text-white flex-wrap max-w-sm sm:max-w-5xl  px-4 mx-auto justify-center items-center py-12 sm:gap-20 font-semibold">
+        <div class="flex items-center justify-center flex-col ">
+          <button id="yoga"
+            class="focused flex justify-center relative bg-btnColor  hover:bg-hoverColor  rounded-sm px-8 py-2 w-40">Yoga
+            
+            
+          </button>
+          
+        </div>
+        <div class="flex items-center justify-center flex-col">
+          <button id="group"
+            class="focused relative bg-btnColor  hover:bg-hoverColor  rounded-sm px-8 py-2 w-40">Group
+            
+          </button>
+          
+        </div>
+        <div class="flex items-center justify-center flex-col">
+          <button id="solo"
+            class="focused relative bg-btnColor  hover:bg-hoverColor  rounded-sm px-8 py-2 w-40">Solo
+            
+          </button>
+          
+        </div>
+        <div class="flex items-center justify-center flex-col">
+          <button id="stretching"
+            class="focused relative bg-btnColor  hover:bg-hoverColor  rounded-sm px-8 py-2 w-40">Strecthing
+            
+          </button>
+          
+        </div>      
+      </div>
+
+      <!-- details -->
+      <div id="feat-content" class="max-w-[80%] flex-wrap flex mt-10 flex-col justify-center gap-6 mx-auto font-semibold sm:flex-row ">
+        <div  class="flex items-center flex-col sm:max-w-[45%]">
+          <h4 class="text-2xl font-bold">Why are your Yoga?</h4>
+          <p id="feat-parag" class="text-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quibusdam distinctio
+            corrupti itaque dolorem quod minus, quae beatae nulla sapiente, earum ea accusantium impedit id, delectus
+            omnis? Rem culpa consequatur fugit voluptatum, facere sequi totam esse blanditiis deleniti perspiciatis
+            eaque repudiandae quis inventore placeat nisi accusantium, quod cum provident atque.</p>
+
+          <p class="text-2xl font-bold mt-6">When comes Yoga Your Time</p>
+          <p class="mt-5 ">Saturday-Sunday: 8:00am – 10:00am</p>
+          <p class="mt-5 ">Monday-Tuesday: 10:00am – 12:00pm</p>
+          <p class="mt-5 ">Wednesday-Friday: 3:00pm – 6:00pm</p>
+        </div>
+
+        <div  class="sm:max-w-[45%]">
+          <img id="feat-img"  src="./image/yoga.jpg" alt="">
+
+        </div>
+
+      </div>
+      
+    </div>
+  </section>
+
+
+  <!-- OUR CLASSES FINISHED -->
+
+  <!-- BMI Calculater Start-->
+
+  <section id="calculator" class=" flex mt-10 flex-col flex-wrap items-center justify-center gap-6 mx-auto font-semibold sm:flex-row ">
+    <div class="flex flex-wrap gap-1 justify-between flex-col sm:flex-row max-w-6xl mx-auto">
+      <div class="calculator sm:max-w-[40%] px-4">
+        
+        <h4 class="sm:text-3xl font-bold text-btnColor">BMI Calculator</h4>
+        <div class="min-w-90">
+          <p class="my-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+            dolores ex et sequi porro facere, enim dolorum dolore, iure
+            libero in voluptate itaque? Dignissimos sunt deleniti
+            eligendi at similique totam.
+        
+            <br><br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptates officia cumque neque magnam ipsam voluptas qui,
+            voluptate eveniet quae, veniam corrupti maiores itaque sint.
+            Earum, dolor iure! Delectus, libero. Non.
+          </p>
+        </div>
+        
+        <!-- height and weight input -->
+        <div class="inputsContainer flex flex-wrap gap-4">
+          <div class="inputContainer my-0">
+            <input type="number" name="" id="height" placeholder="Your Height"
+              class="w-full border-2 border-gray-700 rounded-sm">
+            <label for="height">cm</label>
+          </div>
+  
+          <div class="inputContainer">
+            <input type="number" name="" id="weight" placeholder="Your Weight"
+              class="w-full border-2 border-gray-700 rounded-sm">
+            <label for="weight">kg</label>
+          </div>
+        </div>
+        <span class="warning"></span>
+        <span class="bmireport"></span>
+      </div>
+      <div class="calculatorResult flex flex-col ">
+        <p class="flex justify-center text-2xl my-2">Your BMI: <span class="bmiResult"></span></p>
+        <div class="image relative">
+          <img src="./image/bmi-index.jpg" alt="BMI Index">
+          <span class="calculatorCaret">
+            <i id="bmıCaret" class="fa-solid fa-caret-up"></i>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- BMI Calculater End -->
+
+
+  <!-- OUR BEST TRAINERS START-->
+  <section id="trainers" class=" bg-heroBottom font-bold flex mt-10 flex-col justify-center ">
+    <div class="max-w-6xl mx-auto">
+      <div class="flex flex-col gap-4 ">
+
+        <h3 class="mt-10 text-3xl font-bold text-btnColor flex text-center items-center justify-center relative">OUR BEST TRAINERS</h3>
+        <p class="flex text-center mx-auto max-w-xs sm:max-w-lg my-8">
+          Lorem Ipsum is not simply random text. It has roots in a piece of classical at Hampden-Sydney College
+        </p>
+      </div>
+  
+      <div id="trainer-pict" class="flex flex-col flex-wrap justify-center gap-12 items-center mx-auto  mb-20  sm:flex-row ">
+        <div class="trainerCard flex relative z-10 items-center justify-center ">
+          <img src="./image/trainer1.jpg" alt="trainer-jpeg" class="border-2 border-border-color rounded-lg z-0">
+          <div class="cardClip absolute bg-[#355592] -z-10"></div>
+          <div
+            class="trainerName text-white flex items-center justify-center flex-col absolute bottom-0  bg-[#355592] p-3 -z-10">
+            <h2 class="text-3xl ">Jane Doe</h2>
+            <p>Cardio Trainer</p>
+          </div>
+  
+        </div>
+        <div class="trainerCard flex relative z-10 items-center justify-center ">
+          <img src="./image/trainer2.jpg" alt="trainer-jpeg" class="border-2 border-border-color rounded-lg z-0">
+          <div class="cardClip absolute bg-[#355592] -z-10"></div>
+          <div
+            class="trainerName text-white flex items-center justify-center flex-col absolute bottom-0  bg-[#355592] p-3 -z-10">
+            <h2 class="text-3xl ">Jane Doe</h2>
+            <p>Body Builder</p>
+          </div>
+  
+        </div>
+        <div class="trainerCard flex relative z-10 items-center justify-center ">
+          <img src="./image/trainer3.jpg" alt="trainer-jpeg" class="border-2 border-border-color rounded-lg z-0">
+          <div class="cardClip absolute bg-[#355592] -z-10"></div>
+          <div
+            class="trainerName text-white flex items-center justify-center flex-col absolute bottom-0  bg-[#355592] p-3 -z-10">
+            <h2 class="text-3xl ">Jane Doe</h2>
+            <p>Personel Trainer</p>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+  <!-- OUR BEST TRAINERS END -->
+
+
+  <!-- PURCHASE FROM US START -->
+
+  <section id="purchase" class="font-bold mb-10">
+    
+      <div class="flex flex-col">
+        <h3 class="mt-20 text-3xl font-bold text-btnColor text-center flex items-center justify-center relative">PURCHASE FROM US</h3>
+        <p class="flex text-center mx-auto max-w-xs sm:max-w-lg my-10">
+          Lorem Ipsum is not simply random text. It has roots in a piece of classical at Hampden-Sydney College
+        </p>
+      </div>
+      <!-- card elements -->
+      <div class=" flex flex-col flex-wrap justify-center items-center gap-2 sm:flex-row ">
+        <div class="group max-w-[300px] shadow-2xl shadow-slate-700 rounded-md cursor-pointer hover: ">
+  
+          <div>
+            <img alt="purchase1" loading="lazy" src="./image/purchase1.jpg" class="rounded-t-md">
+  
+          </div>
+          <div class="flex gap-1 flex-col">
+            <h5 class="text-base font-semibold text-center">Kettlebell / 5kg</h5>
+            <p class="text-size text-center gap-1 font-semibold flex justify-center">
+              <del>89.99$</del>/<span>59.99$</span>
+            </p>
+          </div>
+          <div
+            class=" w-full h-10 text-xs flex flex-row justify-around items-center rounded-b-md relative transition delay-150 duration-700 ease-in-out group-hover:bg-hoverColor ">
+            <div class=" flex flex-row justify-center absolute left-6">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" witdh="1em" height="1em">
+                <path
+                  d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
+              </svg>
+  
+            </div>
+            <div>
+              <p>Add To Cart </p>
+            </div>
+  
+          </div>
+  
+  
+        </div>
+        <div class="group max-w-[300px] shadow-2xl shadow-slate-700 rounded-md  cursor-pointer ">
+  
+          <div>
+            <img alt="purchase1" loading="lazy" src="./image/purchase2.jpg" class="rounded-t-md">
+  
+          </div>
+          <div class="flex gap-1 flex-col">
+            <h5 class="text-base font-semibold text-center">Kettlebell / 5kg</h5>
+            <p class="text-size text-center gap-1 font-semibold flex justify-center">
+              <del>89.99$</del>/<span>59.99$</span>
+            </p>
+          </div>
+          <div
+            class=" w-full h-10 text-xs flex flex-row justify-around items-center rounded-b-md relative transition delay-150 duration-700 ease-in-out group-hover:bg-hoverColor">
+            <div class=" flex flex-row justify-center absolute left-6">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" witdh="1em" height="1em">
+                <path
+                  d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
+              </svg>
+  
+            </div>
+            <div>
+              <p>Add To Cart </p>
+            </div>
+  
+          </div>
+  
+  
+        </div>
+        <div class="group max-w-[300px] shadow-2xl shadow-slate-700   rounded-md  cursor-pointer ">
+  
+          <div>
+            <img alt="purchase1" loading="lazy" src="./image/purchase3.jpg" class="rounded-t-md">
+  
+          </div>
+          <div class="flex gap-1 flex-col">
+            <h5 class="text-base font-semibold text-center">Kettlebell / 5kg</h5>
+            <p class="text-size text-center gap-1 font-semibold flex justify-center">
+              <del>89.99$</del>/<span>59.99$</span>
+            </p>
+          </div>
+          <div
+            class="w-full h-10 text-xs flex flex-row justify-around items-center rounded-b-md relative transition delay-150 duration-700 ease-in-out group-hover:bg-hoverColor">
+            <div class=" flex flex-row justify-center absolute left-6">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" witdh="1em" height="1em">
+                <path
+                  d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
+              </svg>
+  
+            </div>
+            <div>
+              <p>Add To Cart </p>
+            </div>
+  
+          </div>
+  
+  
+        </div>
+        <div class="group max-w-[300px] shadow-2xl shadow-slate-700  rounded-md  cursor-pointer ">
+  
+          <div>
+            <img alt="purchase1" loading="lazy" src="./image/purchase4.jpg" class="rounded-t-md">
+  
+          </div>
+          <div class="flex gap-1 flex-col">
+            <h5 class="text-base font-semibold text-center">Kettlebell / 5kg</h5>
+            <p class="text-size text-center gap-1 font-semibold flex justify-center">
+              <del>89.99$</del>/<span>59.99$</span>
+            </p>
+          </div>
+          <div
+            class=" w-full h-10 text-xs flex flex-row justify-around items-center rounded-b-md relative transition delay-150 duration-700 ease-in-out group-hover:bg-hoverColor">
+            <div class=" flex flex-row justify-center absolute left-6">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" witdh="1em" height="1em">
+                <path
+                  d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
+              </svg>
+  
+            </div>
+            <div>
+              <p>Add To Cart </p>
+            </div>
+  
+          </div>
+  
+  
+        </div>
+      </div>
+    
+    
+
+  </section>
+  <!-- PURCHASE FROM US END -->
+
+
+  <!-- REVIEW CLIENT START-->
+  <section id="review" class=" bg-heroBottom font-semibold pb-40">
+    <div class="max-w-6xl mx-auto">
+      <div class="flex justify-center items-center flex-col ">
+        <h3 class="mt-20 text-3xl font-bold text-btnColor text-center flex items-center justify-center relative">REVIEW CLIENT</h3>
+        <p class="flex text-center mx-auto max-w-xs sm:max-w-lg my-10">
+          Lorem Ipsum is not simply random text. It has roots in a piece of classical at Hampden-Sydney College
+        </p>
+      </div>
+      <div id="clients" class="flex flex-col flex-wrap justify-center items-center mx-auto gap-20 sm:flex-row px-4">
+        <div id="client1" class="max-w-[500px]">
+          <div class="flex items-center gap-4 my-8">
+            <img src="./image/client1.jpg" alt="client" class="border rounded-full">
+            <p class="flex flex-col">Diet Expert <span class="text-gray-400 my-4">CFO</span></p>
+
+          </div>
+          <div class="bg-bgNavbar relative text-white">
+            <p class="p-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio laboriosam modi tempora
+              nihil excepturi. Voluptatibus, sunt! Magni quidem alias, adipisci nihil illo, quis eveniet, quae ut veniam
+              explicabo cupiditate minus!</p>
+            <div class="client-clip-l">
+              <p></p>
+            </div>
+            <div class="client-clip-r">
+              <p></p>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div id="client2" class="max-w-[500px]">
+          <div class="flex items-center gap-4 my-8">
+            <img src="./image/client2.jpg" alt="client" class="border rounded-full">
+            <p class="flex flex-col">Diet Expert <span class="text-gray-400 my-4">CFO</span></p>
+
+          </div>
+          <div class="bg-bgNavbar relative text-white">
+            <p class="p-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae similique cum, molestiae quo
+              cumque laborum fugit maxime iste unde tempora, quos ea architecto, neque nesciunt.
+            </p>
+            <div class="client-clip-l">
+              <p></p>
+            </div>
+            <div class="client-clip-r">
+              <p></p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    
+ 
+
+    
+  </section>
+
+  
+  <!-- REVIEW CLIENT END -->
+
+
+  <!-- CONTACT US START -->
+  <section id="contact" class=" mx-auto font-semibold flex flex-col items-center justify-center"> 
+    <div class=" flex justify-center items-center flex-col ">
+      <h3 class="mt-20 text-3xl text-center font-bold text-btnColor flex items-center justify-center relative">CONTACT US</h3>
+      <p class="flex text-center mx-auto sm:max-w-lg my-10 px-4">
+        Lorem Ipsum is not simply random text. It has roots in a piece of classical at Hampden-Sydney College
+      </p>
+    </div>
+    <div class=" flex flex-wrap flex-col sm:flex-row justify-center items-center w-full max-w-6xl mx-auto">
+      <!-- Sol taraftaki iletişim bilgileri -->
+      <div class="sm:w-1/2 p-6">
+        <div class="flex gap-4 sm:gap-16">
+          <div >
+            <h2 class="sm:text-xl ">Mobile Number</h2>
+            <p class="text-gray-600 text-sm sm:text-base">+135 773 321 4442</p>
+          </div>
+          <div>
+            <h2 class="sm:text-xl ">Email Address</h2>
+            <p class="text-gray-600 text-sm sm:text-base">demo@demo.com</p>
+          </div>
+          
+        </div>
+
+        <div class="sm:text-3xl text-wrap mt-6">
+          <p>Make An Aponintment</p>
+        </div>
+        
+
+    
+        <!-- Randevu formu -->
+        <form class="mt-6">
+          <label for="name" class="block text-sm font-medium text-gray-700"></label>
+          <input type="text" id="name" name="name" placeholder="Your Name" class="mt-1 p-2 w-full border rounded-md" />
+    
+          <label for="email" class="block mt-4 text-sm font-medium text-gray-700"></label>
+          <input type="email" id="email" name="email" placeholder="Your Mail" class="mt-1 p-2 w-full border rounded-md" />
+    
+          <label for="message" class="block mt-4 text-sm font-medium text-gray-700"></label>
+          <textarea id="message" name="message" rows="4" placeholder="Your Message" class="mt-1 p-2 w-full border rounded-md"></textarea>
+    
+          
+      </div>
+    
+      <!-- (Sağ taraftaki Google Haritası) Değerlendirme Formu 13 -->
+      <div class="sm:w-1/2 p-6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d200065.48497216703!2d26.914910413170876!3d38.417828663862814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14bbd862a762cacd%3A0x628cbba1a59ce8fe!2zxLB6bWly!5e0!3m2!1str!2str!4v1714068322771!5m2!1str!2str" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+    
+
+
+  </section>
+
+  <!-- CONTACT US END -->
+
+
+  <!-- FOOTER START-->
+  <footer id="footer" class="flex justify-center bg-bgNavbar text-white">
+    <div class="max-w-6xl mx-auto">
+      <div class=" mb-5">
+        <div class="px-4"> 
+          <img src="./image/logo.png" alt="">
+  
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt numquam rerum repellendus. Doloribus molestias ad eaque quaerat nostrum alias quia commodi quidem. Dolores pariatur earum fuga similique neque aliquid culpa!</p>
+        </div>
+        
+  
+        <div id="footer-links" class="flex flex-row flex-wrap mt-5 px-8 justify-center items-center gap-4 sm:gap-80">
+          <div class="flex flex-col gap-2">
+            <h4 class="text-2xl sm:text-3xl">Information</h4>
+            <a href="#">About Us</a>
+            <a href="#">Classes</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+  
+          </div>
+          <div class="flex flex-col gap-2">
+            <h4 class="text-2xl sm:text-3xl">Helpful Links</h4>
+            <a href="#">Services</a>
+            <a href="#">Supports</a>
+            <a href="#">Terms & Condition</a>
+            <a href="#">Privacy Policy</a>
+  
+          </div>
+        </div>
+      </div>
+    </div>
+   
+    
+
+  </footer>
+
+  <!-- FOOTER END -->
+  <script type="module" src="/main.js"></script>
+
+
+
+</body>
+
+</html>

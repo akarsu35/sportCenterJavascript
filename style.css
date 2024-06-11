@@ -1,0 +1,105 @@
+
+body{
+    margin:0;
+}
+.navbarFixed{
+    position: fixed;
+    top:0;
+    left:0;
+    background-color:#355592;
+    height: 4em;
+    
+}
+
+/* Classes btn focus */
+.focused:focus{
+    -webkit-box-shadow: 0px 0px 11px 7px rgba(251,153,18,0.75) 0.8;
+    -moz-box-shadow: 0px 0px 11px 7px rgba(251,153,18,0.75);
+    box-shadow: 0px 0px 11px 7px rgba(251,153,18,0.75);
+    background-color: rgb(251,153,18);
+    
+    
+}
+
+/* second page clip-padding */
+.clip-padding{
+    clip-path: polygon(25% 0, 100% 0, 100% 100%, 60% 100%);
+    background-color: whitesmoke;
+    z-index: -10;  
+}
+
+
+/* Değerlendirme formu 12 start*/
+.cardClip {
+    width:106%;
+    height: 106%;
+    clip-path: polygon(0 33%, 34% 33%, 33% 0, 66% 0, 67% 33%, 100% 33%, 100% 66%, 66% 66%, 66% 100%, 33% 100%, 33% 65%, 0 65%);
+    transition: all .2s linear;
+}
+
+.trainerCard:hover .cardClip {
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+}
+.trainerName {
+    height: 0;
+    width: 80%;
+    clip-path: polygon(0 26%, 16% 26%, 16% 15%, 86% 15%, 86% 24%, 100% 24%, 100% 75%, 86% 75%, 86% 86%, 16% 86%, 16% 75%, 0 75%);
+    transition: all .2s linear;
+}
+
+.trainerCard:hover .trainerName {
+    height: 40%;
+    width: 90%;
+    z-index: 100;
+}
+
+/* Değerlendirme formu 12 end*/
+
+
+.text-size{
+    font-size: 0.65rem
+
+}
+.client-clip-l{
+    position:absolute;
+    clip-path: polygon(0 0, 100% 100%, 100% 0);
+    z-index: 1;
+    width: 4em;
+    height: 4em;
+    background-color: #8096BB;
+
+}
+.client-clip-r{
+    position:absolute;
+    right:0;
+    clip-path: polygon(0 0, 0 100%, 100% 0);
+    
+    z-index: 1;
+    width: 4em;
+    height: 4em;
+    background-color: #8096BB;
+
+}
+h3:after {
+    content: "";
+    position: absolute;
+    bottom: -1rem;
+    left: 50%;
+    background-color: #FB9912;
+    border-radius: 20px;
+    height: 0.5rem;
+    width: 6rem;
+    transform:translate(-50%)
+}
+#bmıCaret{
+    position: absolute;
+    left:7%;
+    color: #FB9912;
+    font-size:3em;
+}
+.fa-caret-down{
+    color: #FB9912;
+    font-size:3em;
+}
+
+
